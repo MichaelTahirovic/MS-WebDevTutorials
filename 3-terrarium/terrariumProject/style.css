@@ -1,3 +1,9 @@
+:root {
+    --orange: #ea771a;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
 h1 {
     color: #3a241d;
 	text-align: center;
@@ -46,7 +52,47 @@ body {
     bottom: 0.5%;
     left: 20%;
     opacity: 0.5;
-    z-index: 1;
+    z-index: 2;
+}
+
+.btn {
+    color: var(--black);
+    background-color: #c99d00;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-holder {
+    position: absolute;
+    height: 8%;
+    width: 9%;
+    left: 46%;
+    top: 17%;
+    background: #231b00;
+    border-radius: 30%;
+    z-index: 10;
+
+}
+
+
+.lid-off {
+    bottom: 85%;
+    opacity: 0;
+    transition: opacity 1s ease, bottom 1s ease;
+}
+
+
+.lid-on {
+    opacity: 0.7;
+    bottom: 80.5%;
+    transition: opacity 0.5s ease, bottom 0.5s ease;
 }
 
 .jar-top {
@@ -54,10 +100,8 @@ body {
 	height: 5%;
 	background: #d1e1df;
 	position: absolute;
-	bottom: 80.5%;
-	left: 25%;
-	opacity: 0.7;
-	z-index: 1;
+    left: 25%;
+    z-index: -2;
 }
 
 .jar-bottom {
