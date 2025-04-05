@@ -1,0 +1,42 @@
+/* inside style.css */
+:root {
+    background-color: lightblue;
+}
+
+.highlight {
+    background-color: yellow;
+}
+  
+.error {
+    background-color: lightcoral;
+    border: red;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;;
+    margin-top: 3%;
+    justify-self: center;
+    text-align: center;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    margin-top: 1%;
+    justify-self: center;
+}
+
+.input-container {
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.leaderboard {
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+}
